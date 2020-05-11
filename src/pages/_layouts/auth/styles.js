@@ -10,9 +10,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  max-width: 315px;
+  max-width: 350px;
   width: 100%;
   margin: 0 auto;
+  padding: 20px;
   text-align: center;
   border-radius: 4px;
   background: #eee;
@@ -50,7 +51,12 @@ export const Content = styled.div`
     }
 
     a {
-      color: #eee;
+      color: #999;
+      transition: color 0.4s;
+
+      &:hover {
+        color: #222;
+      }
     }
   }
 `;

@@ -6,17 +6,17 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
-  background: linear-gradient(-120deg, #999, #222);
+  background: linear-gradient(-60deg, #000001, #8996ab);
 `;
 
 export const Content = styled.div`
-  max-width: 350px;
+  max-width: 400px;
   width: 100%;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
   border-radius: 4px;
-  background: #eee;
+  background: rgba(255, 255, 255, 0.4);
 
   form {
     display: flex;
@@ -51,11 +51,11 @@ export const Content = styled.div`
     }
 
     a {
-      color: #999;
+      color: #fff;
       transition: color 0.4s;
 
       &:hover {
-        color: #222;
+        color: #eee;
       }
     }
   }

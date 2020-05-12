@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Para acessar o Back-end desta aplicação só entrar pelo Link ---> https://github.com/CarlosAugusto45/auth-and-notify-backend
 
-To access or back up this application, simply access the link ---> https://github.com/CarlosAugusto45/auth-and-notify-backend
+To access Back-end this application, simply access the link ---> https://github.com/CarlosAugusto45/auth-and-notify-backend
 
 ## Available Scripts
 

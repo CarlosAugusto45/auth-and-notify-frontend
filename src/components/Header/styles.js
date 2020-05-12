@@ -36,8 +36,25 @@ export const Menu = styled.ul`
   align-items: center;
 
   li {
+    & + li {
+      margin-left: 5px;
+      padding-left: 5px;
+      border-left: 1px solid #999;
+    }
+
+    > button {
+      border: 0;
+      background: 0;
+    }
+
+    > button,
     > a {
       color: #222;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #999;
+      }
     }
   }
 `;
